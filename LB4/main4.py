@@ -100,7 +100,7 @@ if __name__ == "__main__":
     test_values = list(range(1, 21))  # одинаковый для всех прогонов
 
     # ===== Чистый бенчмарк одного вызова =====
-    print("Single call benchmark (n=10):")
+    print("Single call benchmark (n=10): ")
     print(
         "Recursive:",
         timeit.timeit(lambda: fact_recursive(10), number=1)
