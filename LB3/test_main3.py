@@ -2,6 +2,7 @@ import unittest
 from main3 import gen_bin_tree
 
 
+
 class TestBinaryTree(unittest.TestCase):
 
     # ===== Базовые случаи =====

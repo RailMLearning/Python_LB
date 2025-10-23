@@ -1,6 +1,7 @@
 from typing import Callable, Dict, List
 from collections import namedtuple
 
+
 Tree = Dict[str, List["Tree"]]
 
 
