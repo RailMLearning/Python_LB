@@ -11,6 +11,8 @@
 
 научиться тестировать функцию и поведение логирования.
 
+
+
  Задание
 Реализовать декоратор с параметрами.
 
@@ -21,6 +23,8 @@
 Продемонстрировать работу логирования (фрагменты логов).
 
 Написать тесты: функции, декоратора, работы со StringIO.
+
+
 
  Исходный код
 Декоратор с параметрами
@@ -76,14 +80,13 @@ def solve_quadratic(a, b, c):
 print(solve_quadratic(1, -3, 2))  # (2.0, 1.0)
 ```
 
-Фрагменты логов
-Пример работы декоратора:
-INFO:root:Вызов функции solve_quadratic с args=(1, -3, 2), kwargs={}
-INFO:root:Функция solve_quadratic вернула (2.0, 1.0)
 
-Пример при ошибке:
-ERROR:root:Вызов функции solve_quadratic с args=(1, 0, 1), kwargs={}
-ERROR:root:Ошибка в функции solve_quadratic: Нет действительных корней
+
+
+<img width="1053" height="651" alt="изображение" src="https://github.com/user-attachments/assets/870928f6-02c1-40f5-b426-02de8ee6a38a" />
+
+
+
 
 Тестирование
 Тесты функции
@@ -134,6 +137,8 @@ class TestStringIO(unittest.TestCase):
         logging.info("Тестовое сообщение")
         self.assertIn("Тестовое сообщение", log_stream.getvalue())
 ```
+
+
 
 В ходе лабораторной работы:
 
