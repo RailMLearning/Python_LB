@@ -5,12 +5,12 @@ Tree = Dict[str, List["Tree"]]
 
 
 def left_branch(root: int) -> int:
-    """Левая ветвь (вариант 9)."""
+    """Левая ветвь"""
     return root * 2 + 1
 
 
 def right_branch(root: int) -> int:
-    """Правая ветвь (вариант 9)."""
+    """Правая ветвь"""
     return 2 * root - 1
 
 
@@ -57,8 +57,3 @@ def gen_bin_tree_node(
         gen_bin_tree_node(height - 1, l_b(root), l_b, r_b),
         gen_bin_tree_node(height - 1, r_b(root), l_b, r_b),
     )
-
-
-if __name__ == "__main__":
-    # примеры запуска (по желанию)
-    print(gen_bin_tree(2, 9))
