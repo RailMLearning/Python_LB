@@ -1,5 +1,5 @@
 import unittest
-from main import gen_bin_tree
+from main3 import gen_bin_tree
 
 
 class TestBinaryTree(unittest.TestCase):
