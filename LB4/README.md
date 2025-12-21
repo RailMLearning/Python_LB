@@ -30,5 +30,4 @@
 Для вычисления факториала на практике предпочтительнее
 использовать итеративный подход.
 
-<img width="1576" height="939" alt="изображение" src="https://github.com/user-attachments/assets/b13fdd3e-231f-43cf-9898-33469f36b8d1" />
-
+<img width="1565" height="953" alt="изображение" src="https://github.com/user-attachments/assets/f3e69be2-bf83-4297-8d19-42852d69105e" />
